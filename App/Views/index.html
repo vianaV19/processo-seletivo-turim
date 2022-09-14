@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="assets/js/jquery.min.js"></script>
+
+    <script defer src="assets/js/index.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <div>
+            <div>
+                <button onclick="gravar()">gravar</button>
+                <button onclick="ler()">ler</button>
+                <br><br>
+            </div>
+            <div id="pessoas-container">
+
+                <label for="pessoa">Nome</label>
+                <input type="text" name="nome" id="nome">
+                <button id="incluirBtn" onclick="incluirPessoa()">Incluir</button>
+                <br>
+                <h4>Pessoas</h4>
+
+                <div id="pessoas-list">
+                   
+                </div>
+            </div>
+        </div>
+
+        <div id="json-container">
+            <textarea name="json" id="json" cols="100" rows="25"></textarea>
+        </div>
+    </div>
+</body>
+
+</html>

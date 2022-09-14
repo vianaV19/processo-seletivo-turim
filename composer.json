@@ -1,0 +1,23 @@
+{
+    "vendor-name": "turim application",
+    "description": "aplicação processo seletivo turim",
+    "require": {
+		"php": ">= 7.0"
+	},
+    "authors": [
+        {
+            "name": "Matheu Viana de Souza",
+            "email": "matheus.viana518062@gmail.com",
+            "homepage": "https://vianav19.github.io/",
+            "role": "WEB | Software Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "./App",
+            "MF\\": "./vendor/MF"
+        }
+    }
+
+
+}
