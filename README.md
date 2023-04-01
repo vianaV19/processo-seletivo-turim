@@ -23,6 +23,14 @@
 - MVC Architecture ✅ 
 - CRUD System ✅
 
+## How to Use
+
+Digite o seguinte comando na pasta do projeto:
+
+```
+> php -S localhost:8080 public
+```
+---
 
 <h4 align="center">
 
